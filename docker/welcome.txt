@@ -1,0 +1,8 @@
+
+
+========= FERAL INLINE SAMPLE =================
+Welcome to the Feral Sample. If you are reading this you have started the Docker container using 'make start'.
+
+Next step, in another terminal window type 'make term' in the docker folder.
+===============================================
+
