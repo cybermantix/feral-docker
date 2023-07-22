@@ -1,4 +1,4 @@
-PROJECT_NAME=FERAL_DOCKER_KIT
+PROJECT_NAME=feral_docker_kit
 SYMFONY_VERSION=6.3.*
 
 help:s
@@ -42,10 +42,23 @@ version:
 	@git describe > var/version.txt
 
 build:
+	@echo "BECOMING FERAL - STAND BY"
+	@echo
 	@echo "This could take several minutes on the 'docker-php-ext-install' step."
+	@echo
+	@echo "How many .NET programmers does it take to change a lightbulb?"
+	@echo "     None, they just ask the Microsoft Support team to do it for them!"
+	@echo
 	docker-compose -p ${PROJECT_NAME} build
 
 rebuild:
+	@echo "BECOMING FERAL - STAND BY"
+	@echo
+	@echo "This could take several minutes on the 'docker-php-ext-install' step."
+	@echo
+	@echo "Why did the .NET programmer refuse to play hide-and-seek?"
+	@echo "     Because they couldn't find a good hiding spot without Visual Studio's IntelliSense giving them away!"
+	@echo
 	docker-compose -p ${PROJECT_NAME} build --no-cache
 
 server:

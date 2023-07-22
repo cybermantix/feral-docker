@@ -6,8 +6,8 @@ services:
   ## #########
   app:
     build:
-      context: ..
-    image: feral/docker
+      context: ./
+    image: feral/docker-tmp
     env_file:
       - .env
       - .env.developer
