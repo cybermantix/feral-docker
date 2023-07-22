@@ -16,6 +16,7 @@ help:
 install-symfony:
 	composer create-project symfony/skeleton:"${SYMFONY_VERSION}" ./temp
 	mv -f ./temp/* ./ 2>/dev/null
+	mv -f ./temp/.env ./ 2>/dev/null
 	rm -Rf ./temp
 
 install-sleep:
