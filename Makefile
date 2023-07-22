@@ -22,7 +22,7 @@ install-symfony:
 install-sleep:
 	@echo
 	@echo
-	@echo "Sleeping for 20 seconds for the filesystem to catch up."
+	@echo "Sleeping for 20 seconds to share some fun information."
 	@echo "While you wait, some fun facts"
 	@echo "- Did you know it only takes 2 weeks for a .NET developer to become feral? Well, that's what we think at least."
 	@echo "- Did you know our documentation can be found at https://www.feralccf.com/ ?"
