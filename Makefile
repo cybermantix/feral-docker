@@ -37,19 +37,19 @@ install-feral:
 
 install: install-symfony install-sleep install-feral
 
-remove:
-	rm -Rf bin
-	rm -Rf composer
-	rm -Rf config
-	rm -Rf temp
-	rm -Rf public
-	rm -Rf src
-	rm -Rf temp
-	rm -Rf var
-	rm -Rf vendor
-	rm -Rf composer.*
-	rm -Rf symfony.*
-	rm .env
+# remove:
+# 	rm -Rf bin
+# 	rm -Rf composer
+# 	rm -Rf config
+# 	rm -Rf temp
+# 	rm -Rf public
+# 	rm -Rf src
+# 	rm -Rf temp
+# 	rm -Rf var
+# 	rm -Rf vendor
+# 	rm -Rf composer.*
+# 	rm -Rf symfony.*
+# 	rm .env
 
 
 .DEFAULT: help
