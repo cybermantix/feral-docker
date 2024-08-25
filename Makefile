@@ -32,8 +32,8 @@ install-sleep:
 
 install-feral:
 	mkdir -p src/Process/NodeCode var/processes
-	curl https://www.feralccf.com/files/feral_inline.yaml > config/packages/feral_inline.yaml
-	composer require -W feral/inline
+	curl https://www.feralccf.com/files/feral_symfoony.yaml > config/packages/feral_symfony.yaml
+	composer require -W feral/symfony
 
 install: install-symfony install-sleep install-feral
 
